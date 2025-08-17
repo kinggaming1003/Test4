@@ -16,6 +16,6 @@ services:
     environment:
      DISK_SIZE: "30G"
      RAM_SIZE: "6G"
-     CPU_CORES: "4"
+     CPU_CORES: "2"
     restart: always
     stop_grace_period: 2m
