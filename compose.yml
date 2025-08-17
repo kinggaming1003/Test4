@@ -13,5 +13,9 @@ services:
       - 8006:8006
     volumes:
       - ./qemu:/storage
+    environment:
+     DISK_SIZE: "30G"
+     RAM_SIZE: "6G"
+     CPU_CORES: "4"
     restart: always
     stop_grace_period: 2m
