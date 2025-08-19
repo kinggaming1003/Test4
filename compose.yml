@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "https://cdimage.kali.org/kali-2025.2/kali-linux-2025.2-qemu-amd64.7z"
+      BOOT: "kali"
     devices:
       - /dev/kvm
       - /dev/net/tun
